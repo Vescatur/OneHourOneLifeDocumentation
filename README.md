@@ -157,10 +157,10 @@ There are diffrent kind of transistion files.
 ### With 3 variables
 | place | description |
 | --- | --- |
-| first variable in file name | required 1 |
-| second variable in file name  | required 2 |
-| first variable in file  | result 1 |
-| second variable in file  | result 2 |
+| first variable in file name | required object 1 |
+| second variable in file name  | required object 2 |
+| first variable in file  | result object 1 |
+| second variable in file  | result object 2 |
 | third variable in file  | time in seconds |
 
 ### With 5 variables
