@@ -39,7 +39,7 @@ numObjects=12
 <!---## OneLife_vXX/groundTileCache--->
 <!---## OneLife_vXX/languages--->
 <!---## OneLife_vXX/music--->
-<!---## OneLife_vXX/objects
+## OneLife_vXX/objects
 This folder houses object files.   
 A object has the following attributes
 
@@ -151,7 +151,47 @@ pixHeight=0
 <!---## OneLife_vXX/sounds--->
 <!---## OneLife_vXX/sprites--->
 ## OneLife_vXX/transitions
-## Algoritme
+This folder houses object files.   
+There are diffrent kind of transistion files.
+
+### With 3 variables
+| place | description |
+| --- | --- |
+| first variable in file name | required 1 |
+| second variable in file name  | required 2 |
+| first variable in file  | result 1 |
+| second variable in file  | result 2 |
+| third variable in file  | time in seconds |
+
+### With 5 variables
+I don't know
+### With 9 variables
+I don't know
+### With L in the name
+I don't know
+### With LT in the name
+I don't know
+### With LA in the name
+I don't know
+
+###Example
+
+## Algorithm for recipe calculator
+
+I have made a algorithm which uses the transition file to create a tree of transitions.
+The algorithm starts by assigning each object a step(called recipeTier in code).
+Step 0 is the once we find in nature. Step 1 is the items we can create with step 0. Step 2 builds on that.
+This should be done before hand.
+
+Generation of the tree
+1. Receive an object id
+2. Find all the transitions which create the object
+3. Find the transitions which has the lowest variable for max(required1->step,required2->step)
+4. Do step 5 for both required objects
+5. if
+
+
+
 
 
 
