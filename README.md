@@ -171,6 +171,8 @@ The first two variables always come from the filename, and the other 1-9 variabl
 | eigth variable in file  | move | |
 | ninth variable in file  | desiredMoveDist | |
 
+https://github.com/jasonrohrer/OneLife/blob/master/gameSource/transitionBank.cpp
+
 ### With L in the name
 I don't know
 ### With LT in the name
