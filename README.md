@@ -171,9 +171,10 @@ I don't know
 I don't know
 ### With LT in the name
 I don't know
+Last use target
 ### With LA in the name
 I don't know
-
+Last use Actor
 ###Example
 
 ## Algorithm for recipe calculator
