@@ -195,9 +195,10 @@ Generation of the tree
 1. Receive an object id
 2. Find all the transitions which create the object
 3. Find the transitions which has the lowest variable for max(required1->step,required2->step)
-4. Do step 5 for both required objects
-5. if
-
+4. Save the transition in a global variable
+5. Do step 5 for both required objects
+6. If the step is higher then 1 go to 1.
+7. You will now have all the tranistions relate to the object id.
 
 
 
