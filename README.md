@@ -75,7 +75,7 @@ A object has the following attributes
 | creationSoundInitialOnly |  |
 | numSlots |  |
 | slotSize |  |
-| numSprites |  |
+| numSprites | The number of sprites. The next 8 lines are repeated once per sprite |
 | spriteID |  |
 | pos |  |
 | rot |  |
@@ -175,13 +175,13 @@ The first two variables always come from the filename, and the other 1-9 variabl
 https://github.com/jasonrohrer/OneLife/blob/master/gameSource/transitionBank.cpp
 
 ### With L in the name
-I don't know
+Old format, alias for LT
 ### With LT in the name
 I don't know
-Last use target
+"Last use of target"
 ### With LA in the name
 I don't know
-Last use Actor
+"Last use of Actor"
 ###Example
 
 ## Algorithm for recipe calculator
