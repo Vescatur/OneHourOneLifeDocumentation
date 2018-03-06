@@ -157,6 +157,7 @@ There are diffrent kind of transistion files.
 ### Transitions may use between 3 and 11 variables
 The first two variables always come from the filename, and the other 1-9 variables are parsed according to this pattern:
 %d %d %d %f %f %d %d %d %d
+
 | place | variable name | description |
 | --- | --- | --- |
 | first variable in file name | actor | required object 1 |
@@ -164,12 +165,12 @@ The first two variables always come from the filename, and the other 1-9 variabl
 | first variable in file  | newActor | result object 1 |
 | second variable in file  | newTarget | result object 2 |
 | third variable in file  | autoDecaySeconds | time in seconds |
-| fourth variable in file  | actorMinUseFraction | |
-| fifth variable in file  | targetMinUseFraction | |
-| sixth variable in file  | reverseUseActorFlag | |
-| seventh variable in file  | reverseUseTargetFlag | |
-| eigth variable in file  | move | |
-| ninth variable in file  | desiredMoveDist | |
+| fourth variable in file  | actorMinUseFraction |   |
+| fifth variable in file  | targetMinUseFraction |   |
+| sixth variable in file  | reverseUseActorFlag |   |
+| seventh variable in file  | reverseUseTargetFlag |   |
+| eigth variable in file  | move |   |
+| ninth variable in file  | desiredMoveDist |   |
 
 https://github.com/jasonrohrer/OneLife/blob/master/gameSource/transitionBank.cpp
 
